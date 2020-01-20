@@ -1,14 +1,15 @@
-import React, { useState,useEffect } from 'react';
+import React, { useState, useEffect } from "react";
 
-export default function Header(){
-    // console.log('Current directory: ' + process.cwd());
-    useEffect(() => {
-        
-    }, []);
-    return(
-        <>
-        <h1>This is header</h1>
-        {/* <img src="./images/korean-icons-737x500.jpg" alt="" /> */}
-        </>
-    )
+export default function Header() {
+   
+  return (
+    <React.Fragment>
+    <div className="wrapper">
+    <h1 className="text-light">Welcome to ReactJs boilerplate with webpack</h1>
+    <h3>Making life easier as always</h3>
+    <p>happy coding!</p>
+    <p>Ali Waqas</p>
+    </div>
+    </React.Fragment>
+  );
 }
